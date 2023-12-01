@@ -18,6 +18,7 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         port: ${{ secrets.SSH_PORT }}
         script: |
+          cd cd /home/ict/dicoding-jmd/auth-api/
           git pull origin main
           npm install
           npm run migrate up
