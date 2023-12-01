@@ -1,7 +1,7 @@
 {
   "user": "developer",
-  "password": "0okmnji9",
-  "host": "localhost",
+  "password": "supersecret",
+  "host": "103.73.74.156",
   "port": 5432,
   "database": "auth_api_test"
 }
